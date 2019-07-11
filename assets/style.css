@@ -1,8 +1,89 @@
-<head>>
+body {
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+    margin: 0;
+    height: 100%;
+    background-color: grey;
+}
 
-<style>
 
+.header {
+    background-color: #fff;
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+    border-color: gray;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
 
+.main {
+    width: 60%;
+    background-color: #fff;
+    margin: 75px auto;
+    display:flex;
+    flex-direction: column;
+    padding: 20px;
 
+}
 
-</style>
+h1 {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    margin: 0;
+    position: relative;
+    left: 0;
+
+}
+.image-text {
+    display: flex;
+}
+
+#navigation {
+    /* float: right; */
+    text-align: right;
+
+}
+
+a:focus {
+    background-color: black;
+    color: red;
+}
+
+a:hover {
+    background-color: yellow;
+    color: blue;
+
+}
+
+a:active {
+    background-color: red;
+}
+
+h2 {
+    color: #4aaaa5;
+    /* clear: both; */
+    position: relative;
+
+}
+
+img {
+    margin: 10px;
+}
+
+.background {
+    background-color: grey;
+    width: 100%;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    background-color: #666;
+    color: white;
+    padding: 5px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
